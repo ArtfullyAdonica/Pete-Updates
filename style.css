@@ -18,16 +18,20 @@ h1, h2, h3 {
 /* Header */
 header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding: 121px;
   background-color: #eae2b7; /* Container background color matching body */
+  /*adjusts gap between Pete Thinkful and Navigation*/
+  gap: 18px; 
+  row-gap: 18px;
+  column-gap: 18px;
 }
 
 h1 {
-  margin: 0;
   font-size: 2em;
   color: #2c3e50; /* Dark blue color */
+  
 }
 
 /* Navigation */
@@ -181,5 +185,6 @@ footer {
 hr {
   border: 1px solid black; /* Horizontal rule styling */
 }
+
 
 
